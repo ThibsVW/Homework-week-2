@@ -1,0 +1,71 @@
+.navbar-brand {
+
+    background-color: rgb(6, 54, 70);
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+    }
+
+#title {
+
+    background-color: wheat;
+
+    }
+
+.testpicture {
+
+    border-radius: 50%;
+    width: 100%/9;
+
+}
+
+#About-Me {
+
+color: rgb(6, 54, 70);
+size: 150px;
+margin-bottom: 20px;
+}
+
+footer {
+
+background-color: rgb(6, 54, 70);
+text-align: center;
+
+}
+
+body {
+
+background-color: bisque
+
+}
+
+.my-container {
+
+    border:1px solid grey;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.my-row {
+    height: auto;
+}
+
+
+#pic-porfolio{
+
+    max-width: 150px;
+    height:200px;
+    text-align: center;
+    
+}
