@@ -59,6 +59,13 @@ background-color: bisque
     text-align: center;
   }
 
+  /*contact*/
+
+  .form-group {
+
+    color: whitesmoke;
+  }
+
 
 /* Media queries*/
 
