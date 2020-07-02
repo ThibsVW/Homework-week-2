@@ -1,15 +1,19 @@
 /* set background image for body */
 body {
     min-height: 100vh;
-    background-image: url("images/background.jpeg");
+    background-image: linear-gradient(to right, rgb(211, 186, 186), rgb(184, 163, 126), rgb(175, 175, 115), rgb(142, 192, 142), rgb(133, 133, 197), rgb(179, 149, 201), rgb(190, 139, 190));
     background-position: center;
     background-size: cover;
+}
+
+p, .p-1 {
+    color: white;
 }
 
 /*  all navbars (top and bottom) font and background color */
 .navbar {
     font-family: 'Julius Sans One', sans-serif;    
-    background-color: rgb(0, 138, 196);
+    background-color: rgb(190, 186, 186)
 }
 
 /* spacing of top navbar  */
@@ -20,9 +24,9 @@ body {
 
 /* heading of top navbar */
 .navbar-text {
-    background-color:#fafdff;
+    background-color:rgb(190, 186, 186);
     padding: 15px;
-    color: #333;
+    color: white;
     font-size: 32px;
     font-weight: bold;
 
@@ -75,18 +79,13 @@ li a {
 }
 
 
-
-
-
-
-
 /* GENERAL  */
 
 /* space around content */
 .container {
     width: 85%;
     font-family: 'Montserrat', sans-serif;
-    background-color: #fafdff;
+    background-color: linear-gradient(to right, rgb(211, 186, 186), rgb(184, 163, 126), rgb(175, 175, 115), rgb(142, 192, 142), rgb(133, 133, 197), rgb(179, 149, 201), rgb(190, 139, 190));
     padding: 30px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -117,14 +116,15 @@ li a {
 /* image on about me page */
 .index-image {
     /* set image width to 100% of container... */
-    width: 100%;
+    width: 50%;
     /* ... up to 450px */
-    max-width: 500px;
+    max-width: 250px;
     /* float it left */
     float: left;
     /* padding for the image */
     padding-right: 30px;
     padding-bottom: 20px;
+    border-radius: 70%;
 }
 
 /* used for social media links in index */
@@ -148,11 +148,17 @@ h5 {
     padding-bottom: 40px;
 }
 
+.card {
+
+    background-color: transparent;
+    border: none;
+}
+
 /* text overlaying portfolio images */
 .card-title {
-    color: black;
+    color: black
     font-weight: bold;
-    background-color: rgb(0, 138, 196);
+    background-color: transparent;
     opacity: 0.8;
     text-align: center;
     margin: 0px;
@@ -170,6 +176,27 @@ h5 {
 }
 
 
+.my-video {
+
+    text-align: center;
+}
+
+@media screen and (max-width: 40%) {
+  .video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+  }
+  .video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+
+}
 
 
 /* FOOTER */
