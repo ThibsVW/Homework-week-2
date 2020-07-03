@@ -238,3 +238,18 @@ h5 {
         /* stop container filling screen on larger screens  */
         width: 70%;
     }
+ }
+
+ .video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
