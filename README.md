@@ -1,6 +1,6 @@
 # My portfolio
 
-![Capture](https://user-images.githubusercontent.com/64518932/86515284-6041be00-be4a-11ea-9676-07893378d60f.JPG)
+![Capture](https://user-images.githubusercontent.com/64518932/88877265-aaef0400-d257-11ea-823e-63336a43e8e8.JPG)
 
 ### My webpage
 
